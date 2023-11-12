@@ -3,17 +3,29 @@
     {
       "id": "1",
       "Name": "Project1",
-      "Operations": ["Tool D-2", "Tool D-4", "Tool D-6"]
+      "Operations": [
+        { "OPerationName": "Operation1", "Tools": "Tool D-2" },
+        { "OPerationName": "Operation2", "Tools": "Tool D-4" },
+        { "OPerationName": "Operation3", "Tools": "Tool D-6" }
+      ]
     },
     {
       "id": "2",
       "Name": "Project2",
-      "Operations": ["Tool D-4", "Tool D-6", "Tool D-8"]
+      "Operations": [
+        { "OPerationName": "Operation1", "Tools": "Tool D-4" },
+        { "OPerationName": "Operation2", "Tools": "Tool D-6" },
+        { "OPerationName": "Operation3", "Tools": "Tool D-8" }
+      ]
     },
     {
       "id": "3",
       "Name": "Project3",
-      "Operations": ["Tool D-6", "Tool D-8", "Tool D-10"]
+      "Operations": [
+        { "OPerationName": "Operation1", "Tools": "Tool D-6" },
+        { "OPerationName": "Operation2", "Tools": "Tool D-8" },
+        { "OPerationName": "Operation3", "Tools": "Tool D-10" }
+      ]
     }
   ]
 }
